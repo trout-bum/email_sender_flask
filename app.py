@@ -1,6 +1,11 @@
 from flask import Flask, render_template, request
 from funkcijos import get_currencies, get_data
 
+"""
+Labai faina programa, niekas dar tokios nepadarė
+"""
+
+
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
